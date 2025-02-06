@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Dashboard">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/gradient">
+
+            <ImageView
+                android:id="@+id/w1IMG"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/w1removebg" />
+
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rLayout1"
+        >
+
+        <TextView
+            android:id="@+id/watch1Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fastrack B70"
+            android:textSize="50dp"
+
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/watch1price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/watch1Name"
+            android:text="₹1,880"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/watch1Name"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/watch1price"
+            android:text="@string/w1price"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ratingWatch1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/watch1Name"
+            android:layout_marginTop="20dp"
+            android:paddingTop="30dp"
+            android:src="@drawable/star35" />
+
+        <Button
+            android:id="@+id/buyWatch1Btn"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/ratingWatch1"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rounded_shape"
+            android:text="BUY NOW"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/watch1about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buyWatch1Btn"
+            android:layout_marginTop="20dp"
+            android:text="About this item"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/watch1about">
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:text="• "
+                    android:textColor="@color/black"
+                    android:textSize="25dp"/>
+                <TextView
+                    android:layout_column="2"
+                    android:layout_width="wrap_content"
+                    android:text="Dial Color: Black, Case Shape: Round"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:text="• "
+                    android:textColor="@color/black"
+                    android:textSize="25dp"/>
+                <TextView
+                    android:layout_column="2"
+                    android:layout_width="wrap_content"
+                    android:text="Band Color: Black, Band Material: Plastic"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:text="• "
+                    android:textColor="@color/black"
+                    android:textSize="25dp"/>
+                <TextView
+                    android:layout_column="2"
+                    android:paddingBottom="10dp"
+                    android:layout_width="wrap_content"
+                    android:text="Watch Movement Type: Quartz, Watch Display Type: Analog"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:text="• "
+                    android:textColor="@color/black"
+                    android:textSize="25dp"/>
+                <TextView
+                    android:layout_column="2"
+                    android:layout_width="wrap_content"
+                    android:text="Case Material: Plastic"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:text="• "
+                    android:textColor="@color/black"
+                    android:textSize="25dp"/>
+                <TextView
+                    android:layout_column="2"
+                    android:layout_width="wrap_content"
+                    android:text="Water Resistance Depth: 30 meters"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:text="• "
+                    android:textColor="@color/black"
+                    android:textSize="25dp"/>
+                <TextView
+                    android:paddingBottom="10dp"
+                    android:layout_column="2"
+                    android:layout_width="wrap_content"
+                    android:text="1 year manufacturer warranty on manufacturing defects"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"/>
+            </TableRow>
+        </TableLayout>
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

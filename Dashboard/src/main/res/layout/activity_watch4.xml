@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Dashboard">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/gradient">
+
+            <ImageView
+                android:id="@+id/w4IMG"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/titneremovebg" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/rLayout4"
+            android:layout_marginLeft="20dp"
+
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/watch4Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Triwa Falken"
+                android:textColor="@color/black"
+                android:textSize="50dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/watch4price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/watch4Name"
+                android:text="₹7,990"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/watch4Name"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@+id/watch4price"
+                android:text="@string/w4price"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/ratingWatch4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/watch4Name"
+                android:layout_marginTop="20dp"
+                android:paddingTop="30dp"
+                android:src="@drawable/star5" />
+
+            <Button
+                android:id="@+id/buyWatch4Btn"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/ratingWatch4"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/rounded_shape"
+                android:text="BUY NOW"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/watch4about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/buyWatch4Btn"
+                android:layout_marginTop="20dp"
+                android:text="About this item"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/watch4about"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="1"
+                        android:text="• "
+                        android:textColor="@color/black"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:paddingBottom="10dp"
+                        android:paddingEnd="20dp"
+                        android:text="SCRATCH AND WATER RESISTANT to 5M ATM.The Falken black watches for men feature a flawless stainless steel casing with 20mm wide organic black leather strap, sourced from our Swedish tannery"
+                        android:textColor="@color/black"
+                        android:textSize="17dp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="1"
+                        android:text="• "
+                        android:textColor="@color/black"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:paddingBottom="10dp"
+                        android:paddingEnd="20dp"
+                        android:text="MINERAL TOP GLASS CLOSURE protects the watch’s impressive black dial. Stunning on the wrist, these 3-hand men’s minimalist watches feature a 6 o’clock mini dial with black plated watch hands"
+                        android:textColor="@color/black"
+                        android:textSize="17dp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="1"
+                        android:text="• "
+                        android:textColor="@color/black"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:paddingBottom="10dp"
+                        android:paddingEnd="20dp"
+                        android:text="CITIZEN MIYOTA JAPANESE QUARTZ movement ensures continuous accuracy and precision. Exquisite time-pieces built to last, TRIWA formal watches for men include a 2-year peace of mind warranty"
+                        android:textColor="@color/black"
+                        android:textSize="17dp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="1"
+                        android:text="• "
+                        android:textColor="@color/black"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:paddingBottom="10dp"
+                        android:paddingEnd="20dp"
+                        android:text="CLASSIC BLACK BUCKLE CLOSURE reflects the superior craftsmanship built into this business watch for men. Battery operated, 38mm case diameter and 8.2mm case height, weighing just 1.76 oz"
+                        android:textColor="@color/black"
+                        android:textSize="17dp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="1"
+                        android:text="• "
+                        android:textColor="@color/black"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_column="2"
+                        android:paddingBottom="10dp"
+                        android:paddingEnd="20dp"
+                        android:text="SOPHISTICATED GIFT IDEA for your loved one on that special occasion he’ll always remember. Be his hero and celebrate together in style by gifting him an elegantly packaged Falken men’s leather watch"
+                        android:textColor="@color/black"
+                        android:textSize="17dp" />
+                </TableRow>
+
+            </TableLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</ScrollView>

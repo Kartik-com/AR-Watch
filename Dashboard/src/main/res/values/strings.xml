@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Dashboard</string>
+    <string name="game_view_content_description">Game view</string>
+    <string name="w1price">
+        <strike>₹2,350</strike>
+    </string>
+    <string name="w2price">
+        <strike>₹20,900</strike>
+    </string>
+    <string name="w3price">
+        <strike>₹28,990</strike>
+    </string>
+    <string name="w4price">
+        <strike>₹9,990</strike>
+    </string>
+    <string name="w5price">
+        <strike>₹41,990</strike>
+    </string>
+</resources>

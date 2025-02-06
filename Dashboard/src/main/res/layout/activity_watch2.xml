@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Dashboard">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/gradient">
+
+            <ImageView
+                android:id="@+id/w2IMG"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/w2removebg" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_below="@+id/rLayout2">
+
+            <TextView
+                android:id="@+id/watch2Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Citizen C60"
+                android:textColor="@color/black"
+                android:textSize="50dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/watch2price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/watch2Name"
+                android:text="₹16,720"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/watch2Name"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@+id/watch2price"
+                android:text="@string/w2price"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/ratingWatch2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/watch2Name"
+                android:layout_marginTop="20dp"
+                android:paddingTop="30dp"
+                android:src="@drawable/star35" />
+
+            <Button
+                android:id="@+id/buyWatch2Btn"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/ratingWatch2"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/rounded_shape"
+                android:text="BUY NOW"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/watch2about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/buyWatch2Btn"
+                android:layout_marginTop="20dp"
+                android:text="About this item"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/watch2about">
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:text="• "
+                        android:textColor="@color/black"
+                        android:textSize="25dp"/>
+                    <TextView
+                        android:layout_column="2"
+                        android:layout_width="wrap_content"
+                        android:text="Calibre No:E101 Case:Stainless Steel"
+                        android:textColor="@color/black"
+                        android:textSize="17dp" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:text="• "
+                        android:textColor="@color/black"
+                        android:textSize="25dp"/>
+                    <TextView
+                        android:layout_column="2"
+                        android:layout_width="wrap_content"
+                        android:text="Band:Stainless Steel Glass:Mineral Glass"
+                        android:textColor="@color/black"
+                        android:textSize="17dp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:text="• "
+                        android:textColor="@color/black"
+                        android:textSize="25dp"/>
+                    <TextView
+                        android:layout_column="2"
+                        android:layout_width="wrap_content"
+                        android:text="Case Size:41.8mm Weight:131g"
+                        android:textColor="@color/black"
+                        android:textSize="17dp" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:text="• "
+                        android:textColor="@color/black"
+                        android:textSize="25dp"/>
+                    <TextView
+                        android:layout_column="2"
+                        android:layout_width="wrap_content"
+                        android:text="Thickness:10.1mm Water Resistant:100M"
+                        android:textColor="@color/black"
+                        android:textSize="17dp"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:text="• "
+                        android:textColor="@color/black"
+                        android:textSize="25dp"/>
+                    <TextView
+                        android:layout_column="2"
+                        android:layout_width="wrap_content"
+                        android:text="3 YEAR WARRANTY"
+                        android:textColor="@color/black"
+                        android:textSize="17dp" />
+                </TableRow>
+
+            </TableLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</ScrollView>

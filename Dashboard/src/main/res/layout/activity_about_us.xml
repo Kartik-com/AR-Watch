@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:verticalScrollbarPosition="right"
+    android:fillViewport="true">
+
+
+    <RelativeLayout
+        android:gravity="center"
+        android:id="@+id/xyz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/rel"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="474dp"
+            android:background="@drawable/gradient"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" />
+
+        <TextView
+            android:id="@+id/tejas"
+            style="@style/TextAppearance.Material3.BodyLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:text="ABOUT"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1230dp"
+            android:layout_below="@+id/rel"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="-500dp"
+            android:layout_marginEnd="38dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:paddingLeft="10dp"
+                android:textSize="15dp"
+                android:text="\n\n\n\t\t\t\t The  development  environment  for  the \n project is Unity Game Engine, Vuforia SDK  and  C#  language  was  used  for programming the functionalities.\n\n\t\t\tFirst, we should establish virtual models with the help of Unity software to create 3D watch models. We created Five Interactive watch models for the application.We give option to try different watch colors. \n\n
+  \t\t\t\t  We use Vuforia SDK for scan the Image target.Vuforia is an augmented reality software development kit (SDK) for mobile devices that enables the creation of augmented reality applications. It uses computer vision technology to recognize and track planar images and 3D objects in real time. This image registration capability enables developers to position and orient virtual objects, such as 3D models and other media, in relation to real world objects when they are viewed through the camera of a mobile device.\n\n
+\t\t\t\t  We take a image as a target.Image Target with visually distinct featurs is placed on users wrist. Camera scans the target. Thereafter, it augments the 3D model of the Watch on top of that image and makes sure the back portion of the watch is occluded using another 3D model of the Hand/Wrist and applying Mask Shader on it. Users can change the colors of the band and specifications by using the animated UI. Switching between different models of watches is possible using C# scripting. Manual Testing is done to verify the functionalities. We use C# language in our project.\n\n
+ \t\t\t\t  We use C# language because, C# is a general-purpose, multi-paradigm programming language. C# encompasses static typing, strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines.\n\n
+ \t\t\t\t Once the user thinks that the object is well suited to his  need, he can check the description by selecting the information   button that helps in describing the color, model and price of the watch. In order to view this description, we create   another scene that helps in displaying all the required information. We add another button that helps in changing color of that model.   We use Android Studio for main UI Developement.  Because, Your app's user interface is everything that the   user can see and interact with. Android provides a variety  of pre-built UI components such as structured layout   objects and UI controls that allow you to build the  graphical user interface for your app.\n\n"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/downloadImgBtn"
+                android:layout_width="300dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="60dp"
+                android:background="@drawable/rounded_shape"
+                android:text="Download Image"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

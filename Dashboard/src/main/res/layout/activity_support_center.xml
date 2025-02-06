@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/gradient">
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="333dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                android:text="Support\nCenter"
+                android:textColor="@android:color/white"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:padding="15dp">
+
+            <ImageView
+                android:layout_width="73dp"
+                android:layout_height="88dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:padding="15dp"
+                android:src="@drawable/callcenter" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="25dp"
+                android:includeFontPadding="false"
+                android:text="Kartik "
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:padding="15dp">
+
+            <ImageView
+                android:layout_width="73dp"
+                android:layout_height="88dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:padding="15dp"
+                android:src="@drawable/callcenter" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="25dp"
+                android:includeFontPadding="false"
+                android:text="Tushar"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:padding="15dp">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="73dp"-->
+<!--                android:layout_height="88dp"-->
+<!--                android:layout_alignParentLeft="true"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:padding="15dp"-->
+<!--                android:src="@drawable/callcenter" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_centerVertical="true"-->
+<!--                android:layout_marginStart="50dp"-->
+<!--                android:layout_marginTop="25dp"-->
+<!--                android:includeFontPadding="false"-->
+<!--                android:text="Tejas Otari"-->
+<!--                android:textSize="30sp"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textStyle="bold" />-->
+
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:padding="15dp"-->
+<!--            android:layout_marginBottom="30dp">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="73dp"-->
+<!--                android:layout_height="88dp"-->
+<!--                android:layout_alignParentLeft="true"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:padding="15dp"-->
+<!--                android:src="@drawable/callcenter" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_centerVertical="true"-->
+<!--                android:layout_marginStart="50dp"-->
+<!--                android:layout_marginTop="25dp"-->
+<!--                android:includeFontPadding="false"-->
+<!--                android:text="Satyajeet Gaikwad"-->
+<!--                android:textSize="30sp"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textStyle="bold" />-->
+
+
+<!--        </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:id="@+id/instagram"
+                android:layout_width="73dp"
+                android:layout_height="88dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="40dp"
+                android:padding="15dp"
+                android:src="@drawable/instagram" />
+
+            <ImageView
+                android:id="@+id/facebook"
+                android:layout_width="73dp"
+                android:layout_height="88dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:padding="15dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/facebook" />
+            <ImageView
+                android:id="@+id/twitter"
+                android:layout_width="73dp"
+                android:layout_height="88dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:padding="15dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/twitter" />
+            <ImageView
+                android:id="@+id/youtube"
+                android:layout_width="73dp"
+                android:layout_height="88dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:padding="15dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/youtube" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
